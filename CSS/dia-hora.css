@@ -1,0 +1,52 @@
+.data-hora {
+  width: 608px;
+  height: 162px;
+  position: relative;
+  top: 0;
+  bottom: 64px;
+  margin: auto;
+  
+
+}
+
+.date-part label,
+.hour-part1 label,
+.hour-part2 label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date #data {
+  width: 312px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  box-sizing: border-box;
+}
+
+.date .hour-part1 #time {
+  width: 128px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  box-sizing: border-box;
+}
+
+.date .hour-part2 #time {
+  width: 128px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  box-sizing: border-box;
+}
