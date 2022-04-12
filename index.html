@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/reset.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Formulário de Inscrição</title>
+</head>
+<body>
+  <div class="site-container">
+    <header>
+
+      <div class="header-text">
+        <h1>Crie e compartilhe
+            seu evento.
+        </h1>
+        <p>O primeiro passo, é preencher esse
+           formulário de inscrição.
+        </p>
+      </div>
+
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <form action="">
+
+          <div class="informacoes-evento">
+
+            <h2>Informações do Evento</h2>
+            <hr>
+
+            <div class="titulo-evento">
+              <label for="titulo">Título do evento</label> 
+              <p>(mínimo 8 caracteres)</p>
+              <input type="text" maxlength="8" id="titulo">
+            </div>
+
+            <div class="link-evento">
+              <label for="email">Link do evento</label>
+              <p>(comece com https://)</p>
+              <input type="url" id="email">
+            </div>
+
+            <div class="whatsapp">
+              <label for="tel">Whatsapp para contato</label>
+              <p>(somente números)</p>
+              <input type="tel" id="tel">
+            </div>
+            
+            <div class="informacoes-extras">
+              <label for="info-extras">Informações Extras</label> <br>
+              <textarea name="Informações-Extras" id="info-extras" cols="30" rows="10">
+              </textarea>
+            </div>
+
+            <div class="categoria">
+              <label for="tipo-evento">Categoria</label>
+              <select name="tipo-evento" id="tipo-evento">
+              </select>
+            </div>
+          </div>
+
+          <div class="privacidade">
+            <h2>Privacidade</h2>
+            <hr>
+
+            <div class="email-adm">
+              <label for="email">E-mail do administrador</label>
+              <p>(digite um email válido)</p>
+              <input type="email" id="email">
+            </div>
+
+            <div class="senha">
+              <label for="senha">Senha de acesso para os participantes</label>
+              <p>(mínimo 8 caracteres)</p>
+              <input type="password" name="senha" id="senha" minlength="8">
+            </div>
+
+            <div class="check-privado">
+              <input type="checkbox"> Evento privado
+            </div>
+
+            <div class="data-hora">
+              <h2>Dia e hora</h2>
+              <hr>
+
+              <div class="date">
+                <div class="date-part">
+                  <label for="data">Data</label> <br>
+                  <input type="date" name="data" id="data"><br>
+                </div>
+
+                <div class="hour-part1">
+                  <label for="time">Das</label> <br>
+                  <input type="time" id="time"> <br>
+                </div>
+
+                <div class="hour-part2">
+                  <label for="time">Até</label> <br>
+                  <input type="time" id="time">
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </form>
+      </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+</body>
+</html>
