@@ -4,7 +4,8 @@
   margin: auto;
 }
 
-.informacoes-evento h2 {
+.informacoes-evento h2,
+.privacidade h2 {
   font-family: 'Archivo', sans-serif;
   font-weight: 600;
   font-size: 24px;
@@ -15,13 +16,16 @@
 
 }
 
-.informacoes-evento hr {
+.informacoes-evento hr,
+.privacidade hr {
   width: 608px;
   color: #E6E6F0;
   margin-bottom: 24px;
 }
 
-.informacoes-evento label {
+.informacoes-evento label,
+.privacidade .label-p,
+.privacidade .check-privado  {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -30,7 +34,8 @@
 
 }
 
-.informacoes-evento p {
+.informacoes-evento p,
+.privacidade p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -40,7 +45,8 @@
   margin-left: 12px;
 }
 
-.informacoes-evento .label-p {
+.informacoes-evento .label-p,
+.privacidade .label-p {
   display: flex;
   justify-content: flex-start;
   align-self: center;
@@ -50,7 +56,8 @@
 
 #titulo,
 #email,
-#tel {
+#tel,
+#senha {
   width: 608px;
   height: 56px;
   border-radius: 8px;

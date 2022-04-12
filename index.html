@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/header.css">
   <link rel="stylesheet" href="CSS/informacoes.css">
+  <link rel="stylesheet" href="CSS/privacidade.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
   <title>Formulário de Inscrição</title>
@@ -84,19 +85,23 @@
             <hr>
 
             <div class="email-adm">
-              <label for="email">E-mail do administrador</label>
-              <p>(digite um email válido)</p>
+              <div class="label-p">
+                <label for="email">E-mail do administrador</label>
+                <p>(digite um email válido)</p>
+              </div>
               <input type="email" id="email">
             </div>
 
             <div class="senha">
-              <label for="senha">Senha de acesso para os participantes</label>
-              <p>(mínimo 8 caracteres)</p>
+              <div class="label-p">
+                <label for="senha">Senha de acesso para os participantes</label>
+                <p>(mínimo 8 caracteres)</p>
+              </div>
               <input type="password" name="senha" id="senha" minlength="8">
             </div>
 
             <div class="check-privado">
-              <input type="checkbox"> Evento privado
+              <input type="checkbox" id="checkbox"> Evento privado
             </div>
 
             <div class="data-hora">

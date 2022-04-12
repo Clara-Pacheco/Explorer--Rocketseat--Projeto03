@@ -1,0 +1,26 @@
+.privacidade {
+  width: 608px;
+  height: 322px;
+  position: absolute;
+  top: 834px;
+  left: 64px;
+  right: 64px;
+  bottom: 274px;
+}
+
+.privacidade .check-privado {
+  display: flex;
+}
+
+
+.privacidade .check-privado #checkbox {
+  width: 24px;
+  height: 24px;
+  
+  border-radius: 8px;
+  background-color: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  box-sizing: border-box;
+  margin-right: 19px;
+
+}
