@@ -39,20 +39,26 @@
             <hr>
 
             <div class="titulo-evento">
-              <label for="titulo">Título do evento</label> 
-              <p>(mínimo 8 caracteres)</p>
+              <div class="label-p">
+                <label for="titulo">Título do evento</label>
+                <p>(mínimo 8 caracteres)</p>
+              </div>
               <input type="text" maxlength="8" id="titulo">
             </div>
 
             <div class="link-evento">
-              <label for="email">Link do evento</label>
-              <p>(comece com https://)</p>
+              <div class="label-p">
+                <label for="email">Link do evento</label>
+                <p>(comece com https: //)</p>
+              </div>
               <input type="url" id="email">
             </div>
 
             <div class="whatsapp">
-              <label for="tel">Whatsapp para contato</label>
-              <p>(somente números)</p>
+              <div class="label-p">
+                <label for="tel">Whatsapp para contato</label>
+                <p>(somente números)</p>
+              </div>
               <input type="tel" id="tel">
             </div>
             
@@ -64,8 +70,9 @@
 
             <div class="categoria">
               <label for="tipo-evento">Categoria</label>
-              <select name="categoria" id="tipo-evento">
-                <option value="ao_vivo" selected>Ao vivo</option>
+              <select name="categoria" id="tipo-evento" aria-placeholder="Tipo do evento" >
+                <option hidden>Tipo do Evento</option>
+                <option value="ao_vivo">Ao vivo</option>
                 <option value="podcast">Podcast</option>
                 <option value="mentoria">Mentoria</option>
               </select>

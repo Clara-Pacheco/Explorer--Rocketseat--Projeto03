@@ -3,3 +3,88 @@
   height: 722px;
   margin: auto;
 }
+
+.informacoes-evento h2 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  color: #32264D;
+  margin-top: 64px;
+  margin-bottom: 16px;
+
+}
+
+.informacoes-evento hr {
+  width: 608px;
+  color: #E6E6F0;
+  margin-bottom: 24px;
+}
+
+.informacoes-evento label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+
+}
+
+.informacoes-evento p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+  margin-top: 2px;
+  margin-left: 12px;
+}
+
+.informacoes-evento .label-p {
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+
+#titulo,
+#email,
+#tel {
+  width: 608px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+.informacoes-evento #info-extras {
+  width: 608px;
+  height: 168px;
+  border-radius: 8px;
+  background-color: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  box-sizing: border-box;
+
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.informacoes-evento #tipo-evento {
+  width: 608px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 48px;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #C1BCCC;
+}
