@@ -8,7 +8,8 @@
 <img src="https://img.shields.io/github/repo-size/Clara-Pacheco/Explorer--Rocketseat--Projeto03?style=for-the-badge"/>&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/github/languages/count/Clara-Pacheco/Explorer--Rocketseat--Projeto03?style=for-the-badge"/>
 </p>
-</div>
+</div>  
+
 
 
 # Primeiro projeto do Stage03 - Nível03 - **Programa Explorer** - ***Rocketseat*** 🚀 
