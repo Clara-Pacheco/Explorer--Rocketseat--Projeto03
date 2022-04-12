@@ -28,3 +28,7 @@
   ### O projeto
 
   ![Video capture of the project](https://github.com/Clara-Pacheco/Explorer--Rocketseat--Projeto03/blob/main/assets/video-output-1FEC8A73-8B1A-4FC7-A37E-BC76D8BD4292.gif)
+
+  ### Links
+
+- Live Site URL: [live site URL](https://clara-pacheco.github.io/Explorer--Rocketseat--Projeto03/)
