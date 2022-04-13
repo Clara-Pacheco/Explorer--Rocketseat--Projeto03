@@ -53,6 +53,17 @@
   margin-bottom: 10px;
 }
 
+p:hover,
+#titulo:hover,
+#email:hover,
+#tel:hover,
+#senha:hover {
+  color: #6c6a71;
+}
+
+.informacoes-extras #info-extras:hover {
+  color: #6c6a71;
+} 
 
 #titulo,
 #email,
