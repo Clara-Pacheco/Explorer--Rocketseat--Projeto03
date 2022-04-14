@@ -53,7 +53,7 @@
                 <label for="titulo">Título do evento</label>
                 <p>(mínimo 8 caracteres)</p>
               </div>
-              <input type="text" maxlength="8" id="titulo">
+              <input type="text" minlength="8" id="titulo" required>
             </div>
 
             <div class="link-evento">
@@ -61,15 +61,15 @@
                 <label for="email">Link do evento</label>
                 <p>(comece com https: //)</p>
               </div>
-              <input type="url" id="email">
+              <input type="url" id="email" required>
             </div>
 
             <div class="whatsapp">
               <div class="label-p">
-                <label for="tel">Whatsapp para contato</label>
+                <label for="number">Whatsapp para contato</label>
                 <p>(somente números)</p>
               </div>
-              <input type="tel" id="tel">
+              <input type="number" id="number" required>
             </div>
             
             <div class="informacoes-extras">
@@ -98,7 +98,7 @@
                 <label for="email">E-mail do administrador</label>
                 <p>(digite um email válido)</p>
               </div>
-              <input type="email" id="email">
+              <input type="email" id="email" required>
             </div>
 
             <div class="senha">
@@ -106,7 +106,7 @@
                 <label for="senha">Senha de acesso para os participantes</label>
                 <p>(mínimo 8 caracteres)</p>
               </div>
-              <input type="password" name="senha" id="senha" minlength="8">
+              <input type="password" name="senha" id="senha" minlength="8" required>
             </div>
 
             <div class="check-privado">
@@ -121,17 +121,17 @@
               <div class="date">
                 <div class="date-part">
                   <label for="data">Data</label> <br>
-                  <input type="date" name="data" id="data"><br>
+                  <input type="date" name="data" id="data" required><br>
                 </div>
 
                 <div class="hour-part1">
                   <label for="time">Das</label> <br>
-                  <input type="time" id="time"> <br>
+                  <input type="time" id="time" required> <br>
                 </div>
 
                 <div class="hour-part2">
                   <label for="time">Até</label> <br>
-                  <input type="time" id="time">
+                  <input type="time" id="time" re>
                 </div>
               </div>
 

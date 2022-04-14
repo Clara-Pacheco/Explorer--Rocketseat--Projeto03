@@ -18,3 +18,12 @@
   right: 353px;
   bottom: 91px;
 }
+
+#titulo:invalid,
+#email:invalid,
+#number:invalid,
+#senha:invalid,
+#data:invalid,
+#time:invalid {
+border: 1px solid red;
+}
